@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+html {
+    font-size: 16px !important;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+    color: black;
+    padding: 15px 20px;
+}
+
+.header .navbar-nav .nav-item .nav-link:hover {
+    color: blue;
+}
+
+.header .navbar-toggler:focus {
+    box-shadow: unset;
+}
+
+/* banner */
+.home-banner .custom_carousel {
+    background-image: url("assets/images/slide1.jpg");
+}
+
+.home-banner .custom_carousel-2 {
+    background-image: url("assets/images/slide2.jpg");
+}
+
+.home-banner .carousel-item {
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.home-banner .carousel-indicators [data-bs-target] {
+    background-color: rgb(44, 14, 14);
+}
+
+
+
+.fa-chevron-left,
+.fa-chevron-right {
+    color: blue;
+    font-size: 40px;
+}
+
+.custom-text {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.home-banner .custom-text h1 {
+    font-size: 6rem;
+    text-transform: capitalize;
+}
+
+.home-banner .custom-text .btn {
+    background-color: orangered;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* gallery */
+
+.gallery .back-1 {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 33%;
+}
+
+
+
+
+.gallery .back-a {
+    background-image: url(assets/images/offer1.jpg);
+
+}
+
+.jeans {
+    background-image: url(assets/images/offer2.jpg);
+
+    height: 235px;
+    width: 100%;
+}
+
+.design {
+    background-image: url(assets/images/offer3.jpg);
+    margin-top: 31px;
+}
+
+.common-cloth {
+    height: 235px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery .back-b {
+    background-image: url(assets/images/offer4.jpg);
+}
+
+.gallery .btn {
+    padding: 0.375rem 1.75rem;
+}
+
+.gallery h1 {
+    font-size: 4.9rem;
+}
+
+.gallery p {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.gallery p,
+.gallery h1 {
+    color: white;
+}
+
+.gallery .text {
+    position: absolute;
+    z-index: 1;
+}
+
+.gallery .overlay {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    opacity: .4;
+
+}
+
+.gallery .overlay-1 {
+    height: 235px;
+}
+
+
+
+.products h2,
+.underline {
+    position: relative;
+}
+
+.products h2::before,
+.underline::before {
+    width: 4%;
+    height: 4px;
+    background-color: orangered;
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 48%;
+}
+
+
+.products a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.products a:hover {
+    color: blue;
+}
+
+.new-class {
+    position: absolute;
+    top: 36%;
+    left: 37%;
+    width: 25%;
+    color: white;
+}
+
+
+
+/* special */
+
+.special .timer1 {
+    padding: 0% 4%;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.special .timer1 span {
+    margin-top: 10px;
+}
+
+.special {
+    background-color: #e4e4e4;
+}
+
+/* testimonial */
+.testimonial .carousel-caption {
+    position: static !important;
+    color: black;
+}
+
+.testimonial img {
+    width: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.testimonial h4 {
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.testimonial .carousel-inner {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.testimonial .carousel-control-prev {
+    left: 11%;
+}
+
+.testimonial .carousel-control-next {
+    right: 11%;
+}
+
+.testimonial .carousel-indicators [data-bs-target] {
+    background-color: orangered;
+}
+
+.testimonial .fa-chevron-left,
+.testimonial .fa-chevron-right {
+    color: orangered;
+    font-size: 40px;
+}
+
+/* contact */
+.contact {
+    background-color: #dadada;
+}
+
+.contact .form-control {
+    box-shadow: 2px 1px 5px black;
+}
+
+/* media query */
+
+@media only screen and (max-width:991px) {
+    .gallery .back-1 {
+        width: 46%;
+    }
+
+    .testimonial .carousel-indicators {
+        bottom: -13px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    html {
+        font-size: 14px !important;
+    }
+
+
+}
+
+@media only screen and (max-width:768px) {
+    .gallery .back-1 {
+        width: 100%;
+    }
+
+    .new-class {
+        position: absolute;
+        top: 25%
+    }
+
+    html {
+        font-size: 10px !important;
+    }
+
+    .testimonial .carousel-indicators {
+        bottom: -45px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .new-class{
+        top: 20%;
+    }
+
+    html {
+        font-size: 7px !important;
+    }
+}

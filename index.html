@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>e-commerce website</title>
+
+</head>
+
+<body>
+    <section class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0  ms-auto  text-center">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#product">product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#special">special</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#testimonial">testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#contact">contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- banner -->
+    <div id="home" class="home-banner">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active custom_carousel  ">
+                    <div class="custom-text">
+                        <h1>women</h1>
+                        <h2>52% discount for this season</h2>
+                        <button class="btn  mt-3 py-2 px-4 text-uppercase">our products</button>
+                    </div>
+
+                </div>
+                <div class="carousel-item custom_carousel-2">
+                    <div class="custom-text">
+                        <h1>women</h1>
+                        <h2>52% discount for this season</h2>
+                        <button class="btn btn-danger mt-3 py-2 px-4 text-uppercase">our products</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="row  py-4  d-flex  justify-content-between">
+                <div class="col-lg-3  back-1 back-a  d-flex justify-content-center  align-items-center">
+                    <div class="text text-center">
+                        <h1>sale 30%</h1>
+                        <p>dont miss the chance</p>
+                        <button type="button" class="btn btn-outline-light">shop now</button>
+                    </div>
+                    <div class="overlay"> </div>
+
+                </div>
+
+                <div class="col-lg-3  back-1 ">
+                    <div
+                        class="col-lg-12   jeans  common-cloth mt-md-0 mt-4    d-flex justify-content-center  align-items-center">
+                        <div class="text  text-center">
+                            <h1>sale 30%</h1>
+                            <p>dont miss the chance</p>
+                            <button type="button" class="btn btn-outline-light">shop now</button>
+                        </div>
+                        <div class="overlay overlay-1"> </div>
+                    </div>
+                    <div class="col-lg-12 design common-cloth  d-flex justify-content-center  align-items-center">
+                        <div class="text text-center">
+                            <h1>sale 30%</h1>
+                            <p>dont miss the chance</p>
+                            <button type="button" class="btn btn-outline-dark">shop now</button>
+
+                        </div>
+                        <div class="overlay overlay-1"> </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-lg-3  mx-auto  back-b back-1  mt-lg-0 mt-md-3 mt-5 d-flex justify-content-center  align-items-center">
+                    <div class="text text-center">
+                        <h1>sale 30%</h1>
+                        <p>dont miss the chance</p>
+                        <button type="button" class="btn btn-outline-light">shop now</button>
+                    </div>
+                    <div class="overlay"> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- products -->
+
+    <section id="product" class="products py-3">
+        <div class="container">
+            <h2 class="text-center  text-uppercase">featured products</h2>
+            <div class="row py-3">
+                <div class="col-lg-4  col-sm-6">
+                    <img src="assets/images/p1.jpg" class="img-fluid" alt="">
+                    <div class="text  text-center">
+                        <h4>winter long sleeve black white</h4>
+                        <p>$400.00 <del>$400.00</del></p>
+                        <i class="fa-solid fa-star text-danger"></i>
+                        <a href="#" class="d-block  ">add to cart</a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <img src="assets/images/p2.jpg" class="img-fluid" alt="">
+                    <div class="text  text-center">
+                        <h4>winter long sleeve black white</h4>
+                        <p>$400.00 <del>$400.00</del></p>
+                        <i class="fa-solid fa-star text-danger"></i>
+                        <a href="#" class="d-block">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6   py-sm-3  py-lg-0">
+                    <img src="assets/images/p3.jpg" class="img-fluid" alt="">
+                    <div class="text  text-center">
+                        <h4>winter long sleeve black white</h4>
+                        <p>$400.00 <del>$400.00</del></p>
+                        <i class="fa-solid fa-star text-danger"></i>
+                        <a href="#" class="d-block">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4  mt-3 col-sm-6 py-sm-3  py-lg-0 ">
+                    <img src="assets/images/p4.jpg" class="img-fluid" alt="">
+                    <div class="text  text-center">
+                        <h4>winter long sleeve black white</h4>
+                        <p>$400.00 <del>$400.00</del></p>
+                        <i class="fa-solid fa-star text-danger"></i>
+                        <a href="#" class="d-block">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3 col-sm-6">
+                    <img src="assets/images/p5.jpg" class="img-fluid" alt="">
+                    <div class="text  text-center">
+                        <h4>winter long sleeve black white</h4>
+                        <p>$400.00 <del>$400.00</del></p>
+                        <i class="fa-solid fa-star text-danger"></i>
+                        <a href="#" class="d-block">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-3 col-sm-6">
+                    <img src="assets/images/p6.jpg" class="img-fluid" alt="">
+                    <div class="text  text-center">
+                        <h4>winter long sleeve black white</h4>
+                        <p>$400.00 <del>$400.00</del></p>
+                        <i class="fa-solid fa-star text-danger"></i>
+                        <a href="#" class="d-block">add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-3">
+                <div class="col-lg-12 text-center  position-relative ">
+                    <img src="assets/images/lg.jpg" class="img-fluid" alt="">
+                    <div class="new-class">
+                        <h3>upto 75% of springsale</h3>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- special -->
+
+    <section class="special py-4" id="special">
+        <div class="container">
+            <h2 class="text-center underline  text-uppercase">summer sale</h2>
+
+            <div class="row">
+                <div class="col-lg-7 col-sm-6 col-12  pt-5 mt-5">
+                    <h2>sexy women floral embroidery</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, perferendis animi ducimus
+                        impedit
+                        similique aliquam quia magnam numquam asperiores ipsam dolorum molestiae assumenda iusto sed.
+                    </p>
+
+                    <div class="timer1">
+                        <p> <span class="d-block fs-1">5</span>days</p>
+                    </div>
+                    <div class="timer1">
+                        <p> <span class="d-block fs-1">1</span>hr</p>
+                    </div>
+                    <div class="timer1">
+                        <p> <span class="d-block fs-1">46</span>min</p>
+                    </div>
+                    <div class="timer1">
+                        <p> <span class="d-block fs-1">25</span>sec</p>
+                    </div>
+
+                    <div class="price pt-3">
+                        <h4 class="d-inline-block">$420.00</h4>
+                        <span><del>$670.00</de></span>
+                    </div>
+                    <button type="button" class="btn btn-danger mt-3">Add to cart</button>
+
+                </div>
+                <div class="col-lg-5  col-sm-6  col-12 pt-5 ">
+                    <img src="assets/images/p9.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class="testimonial py-3">
+        <h2 class="text-center underline ">testimonials</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item active text-center">
+                    <img src="assets/images/user.png" class="d-block" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Elina</h2>
+                        <h4>fast comopany ltd.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsum totam asperiores
+                            inventore incidunt consectetur saepe ex dolores magnam odit?</p>
+                    </div>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="assets/images/user2.png" class="d-block" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Martin john</h2>
+                        <h4>fast comopany ltd.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ipsum totam asperiores
+                            inventore incidunt consectetur saepe ex dolores magnam odit?</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <div class="text-center">
+                <h4>lets start a conversation!</h4>
+                <h2 class="fw-bold">contact us</h2>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-lg-5 col-sm-6 ps-5  mb-4  mb-sm-0">
+                    <h5 class="fw-bold">contact info</h5>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <p class="d-inline ms-2">lorem ipsum doller</p>
+                    </div>
+
+                    <div class="py-3">
+                        <i class="fa-light fa-mobile"></i>
+                        <p class="d-inline ms-2">3569857458</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-regular fa-envelope-open"></i>
+                        <p class="d-inline ms-2">info@shop.in</p>
+                    </div>
+
+
+
+                </div>
+                <div class="col-lg-7  col-sm-6">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+<br> <br>
+                        <div class="form-floating">
+                            <textarea class="form-control" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">&nbsp;&nbsp;Enter your message</label>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-danger mt-3">Send message</button>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid bg-danger">
+            <div class="container py-3">
+                <div class="row text-white">
+                    <div class="col-sm-6 col-12 text-center text-sm-start">
+                        <p>copyright &copy; all rights reserved</p>
+                    </div>
+                    <div class="col-sm-6 col-12 text-center text-sm-end">
+                        <p>designed by HUSSAIN PARSOLA</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
