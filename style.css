@@ -279,6 +279,10 @@ html {
         width: 100%;
     }
 
+    .contact{
+        margin-top: 30px;
+    }
+
     .new-class {
         position: absolute;
         top: 25%
@@ -293,6 +297,12 @@ html {
     }
 }
 
+@media only screen and (max-width:450px){
+    .fa-chevron-left, .fa-chevron-right {
+        font-size: 28px;
+    }
+}
+
 @media only screen and (max-width:400px){
     .new-class{
         top: 20%;
@@ -300,5 +310,15 @@ html {
 
     html {
         font-size: 7px !important;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .home-banner .carousel-item {
+        background-position: 64%;
+    
+    }
+    .home-banner .custom_carousel-2 {
+        background-position: 74%;
     }
 }
